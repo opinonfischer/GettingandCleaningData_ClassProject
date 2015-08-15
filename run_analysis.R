@@ -37,7 +37,6 @@ MergedSubjects <- rbind(TrainSubjects,TestSubjects)
 Features <- read.table(".\\UCI HAR Dataset\\features.txt")
 # Identify column indices that only contain the words mean or std 
 mean_std_indices <- grep(".*mean.*|.*std.*", Features[,2])
-#mean_std_indices <- grep("-mean\\(\\)|-std\\(\\)", Features[,2])
 # Create data set with only mean and standard deviation for each measurement
 mean_std_MergedDS <- MergedDS[,mean_std_indices]
 # Change column names
