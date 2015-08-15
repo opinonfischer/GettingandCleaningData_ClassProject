@@ -13,10 +13,10 @@ This repository contains the files necessary for the Getting and Cleaning Data C
 + Read the training and test subjects and bind them
 
 * Extracts only the measurements on the mean and standard deviation for each measurement
-+ Read the features textfile
-+ Identify column indices that only contain the words mean or std 
-+ Create data set with only mean and standard deviation for each measurement
-+ Change column names
+    + Read the features textfile
+    + Identify column indices that only contain the words mean or std 
+    + Create data set with only mean and standard deviation for each measurement
+    + Change column names
 
 * Uses descriptive activity names to name the activities in the data set
 + Read the activity labels text file
