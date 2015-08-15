@@ -51,8 +51,6 @@ ActivityDT <- read.table(".\\UCI HAR Dataset\\activity_labels.txt")
 # Use descriptive variable names
 ActivityDT[, 2] = gsub("_", "", tolower(as.character(ActivityDT[, 2])))
 names(ActivityDT) <- c("activitycode","activitydescription")
-# Merge both 
-FullActivityDT <- merge(mean_std_FullDS, ActivityDT, all = TRUE, by = c("ActivityCode"))
 
 # -----------------------------------------------------------------------------------------
 # 4.Appropriately labels the data set with descriptive variable names. 
