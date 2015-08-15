@@ -7,7 +7,7 @@ This code book summarizes the resulting data fields in `tidyData.txt`.
 * `subjects` - The ID of the test subject
 * `activity` - The type of activity performed: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying
 
-## Measurements (79)
+## Variables (79): represents the average of each variable for each activity and each subject
 
 * `tbodyaccmeanx` 
 * `tbodyaccmeany` 
