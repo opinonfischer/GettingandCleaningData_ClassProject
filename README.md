@@ -19,8 +19,8 @@ This repository contains the files necessary for the Getting and Cleaning Data C
     + Change column names
 
 * Uses descriptive activity names to name the activities in the data set
-    + Read the activity labels text file
-    + Use descriptive variable names
++ Read the activity labels text file
++ Use descriptive variable names
 
 * Appropriately labels the data set with descriptive variable name
     + Bind all 3 datasets: Subject, Labels, Training/Test 
